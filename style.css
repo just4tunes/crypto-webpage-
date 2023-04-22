@@ -1,0 +1,516 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ body {
+     font-family: "Raleway", Sans-serif;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 100px;
+  background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* padding: 0 3%; */
+}
+
+.navbar h1{
+    padding-left: 30px;
+    font-size: 40px;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin-left: 460px;
+    text-decoration: none;
+    color: black ;
+    /* color: white; */
+}
+
+.display{
+    background-color:whitesmoke ;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.display-left{
+    background-color: whitesmoke;
+    width: 47%;
+    height: 500px;
+    margin-left: 70px;
+    margin-top: 200px
+    /* align-items: center; */
+    /* display: flex */
+    /* justify-content: center; */
+}
+
+ .display-left p{
+    color: #E73DD2;
+    font-size: 20px;
+    font-family: "Inter", Sans-serif;
+}
+
+.display-left h2{
+    font-size: 90px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.display-left span{
+    color: rgba(0, 0, 0, 0.479);
+    padding-top: 20px;
+    display: flex;
+}
+
+.display-left button{
+width: 30%;
+height: 60px;
+margin-top: 40px;
+background-color: blue;
+
+}
+
+.display-left button p{
+    color: white;
+    font-weight: 30px;
+}
+
+/* .icon-button {
+    position: relative;
+    padding-left: 2em;
+  }
+  
+  .icon-button i {
+    position: absolute;
+    left: 0.5em;
+    top: 50%;
+    transform: translateY(-50%);
+  } */
+
+.display-right{
+    width: 40%;
+    height: 500px;
+    /* background-color: black; */
+}
+
+.image-container{
+    background-color: white;
+    border-radius: 40px;
+    height: 700px;
+    margin-left: 60px;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    /* border-radius: 50%; */
+    animation: floating 2s ease-in-out infinite;
+    width: 650px;
+    margin-top: 90px;
+    box-shadow: 20px solid #E73DD2;
+}
+.display-right img{
+    width: 80%;
+    margin-left: 70px;
+    margin-top: 35px;
+}
+
+.image-container p{
+    color: black;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 59px;
+    /* transition: all 0.2s ease-in-out; */
+}
+
+
+@keyframes floating {
+    0% {
+      /* transform: translate(-50%, -50%) translateY(0); */
+    }
+    50% {
+      transform: translate(-50%, -50%) translateY(-20px);
+    }
+    100% {
+      transform: translate(-50%, -50%) translateY(0);
+    }
+  }
+
+/* .image-container:hover{
+    background-color: red;
+} */
+
+.image-container span{
+    margin-left: 59px;
+    color: rgba(0, 0, 0, 0.412);
+}
+
+
+.About-artist{
+    width: 100%;
+    height: 1000px;
+    background-color: whitesmoke;
+    /* display: flex; */
+}
+
+.lines{
+    width: 90%;
+    height: 3px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    /* margin-top: 10px */
+    background-color: rgba(0, 0, 0, 0.063);
+}
+
+.post-links{
+    width: 100%;
+    height: 200px;
+    /* display: flex; */
+}
+
+.post-links img{
+    width: 140px;
+    margin-right: 90px;
+    padding: 0px 0px 0px0px;
+    /* margin-top: 20px; */
+}
+
+.love{
+    margin-left: 100px;
+}
+
+.-lefts{
+    width: 50%;
+    height: 300px;
+    background-color: whitesmoke;
+}
+
+.-lefts img{
+    width: 450px;
+    border-radius: 35px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.-right{
+    width: 40%;
+    height: 300px;
+    /* background-color: black; */
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    height: 300px;
+    background-color: whitesmoke;
+}
+
+.-right p{
+    color: #E73DD2;
+    margin-top: 80px;
+}
+
+.-right h2{
+    font-size: 70px;
+
+}
+
+.-right h3{
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+
+
+/* .image-container {
+    background-image: url(background-image.jpg);
+    background-position: center;
+    position: relative;
+    width: 800px;
+    height: 600px;
+  }
+  
+  .image-container img:last-child {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+  }
+   */
+
+   .ABOUT-THE-ITEM{
+    width: 100%;
+    height: 800px;
+     background-color: rgba(255, 0, 0, 0.1);
+     display: flex;
+       /* background: linear-gradient(to right, whitesmoke, , green); */
+   }
+
+.about-left{
+    width: 50%;
+    height: 400px;
+    /* background-color: black; */
+}
+
+.about-left p{
+    color: #E73DD2;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    padding-top: 70px;
+    margin-top: 50px;
+}
+
+.about-left h1{
+      display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-size: 50px;
+    margin-left: 190px;
+}
+
+.text{
+    width: 70%;
+    height: 200px;
+    align-items: center;
+    margin-top: 15px;
+    /* justify-content:center ; */
+    /* display: flex; */
+    margin-left: 190px;
+    /* background-color: black; */
+}
+
+.main{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.text h4{
+    font-size: 30px;
+}
+
+.text h5{
+    font-size: 30px;
+}
+
+.text button{
+    width: 35%;
+    margin-top: 29px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.about-right{
+    width: 50%;
+    height: 400px;
+}
+
+.about-right img{
+    width: 600px;
+    margin-left: 65px;
+    margin-top: 75px;
+
+}
+
+.about-NFT{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    /* background-color: black; */
+}
+
+.A-NFT-LEFT{
+    height: 800px;
+    width: 50%;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+/* .rotate{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  margin: 0 auto;
+}
+
+.rotating-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rotating-text {
+  transform-origin: center center;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-text {
+  animation: rotate 5s linear infinite;
+} */
+
+
+
+.-RIGHTs{
+    height: 800px;
+    width: 45%;
+    margin-top: 200px;
+    margin-left: 90px;
+}
+
+.-RIGHTs p{
+    color: #E73DD2;
+    font-size: 20px;
+    /* font-weight: 300px; */
+}
+
+.-RIGHTs h1{
+    font-size: 50px;
+}
+
+.-RIGHTs span{
+    /* padding: 0px 0px 30px; */
+    /* background-color: black; */
+
+}
+
+.COLLECTIONS{
+    width: 100%;
+    height: 1900px;
+    /* background-color: rgba(255, 0, 0, 0.1); */
+    background-color: whitesmoke;
+}
+
+.COLLECTIONS p{
+    color: #E73DD2;
+    padding-top: 60px;
+    margin-left: 100px;
+}
+
+.COLLECTIONS h1{
+    font-size: 40px;
+    margin-left: 100px;
+    /* margin-top: 60px; */
+
+}
+
+.COLLECTIONS h2{
+    color: rgba(0, 0, 0, 0.323);
+    font-size: 25px;
+    margin-bottom: 90px;
+    margin-left: 100px;
+}
+
+.box{
+    width: 100%;
+    height: 300px;
+ 
+}
+
+.box-container{
+    background-color: white;
+    border-radius: 40px;
+    height: 700px;
+    width: 35%;
+    margin-left:70px;
+
+}
+
+.box-container img{
+    width: 79%;
+    height: 500px;
+    border-radius: 40px;
+    margin-left: 67px;
+    margin-top: 49px;
+    /* padding: 0px 20px; */
+    /* object-fit: contain; */
+}
+
+.box-container h5{
+    margin-left: 100px;
+    color: #E73DD2;
+    margin-top: 10px
+}
+
+.B-c-left{
+    width: 50%;
+    height: 200px;
+    margin-left: 40px;
+    /* display: flex; */
+    /* background-color:black ;     */
+}
+
+.container{
+    background-color: white;
+    border-radius: 40px;
+    height: 900px;
+    margin-left: 70px;
+    width: 100%;
+}
+
+.container img{
+    width: 79%;
+    height: 700px;
+    border-radius: 40px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.container h4{
+    margin-left: 100px;
+    color: #E73DD2;
+    margin-top: 10px    
+}
+
+.c-2{
+    width: 50%;
+    height: 100px;
+    background-color: black;
+    margin-top: 90px;
+    /* display: flex; */
+  
+}
+
+.c-2 img{
+    height: 250px;
+    width: 60%;
+    margin-right: 40px;
+}
+
+.c-2 .container{
+    height: 400px;
+    width: 90%;
+   
+
+}
